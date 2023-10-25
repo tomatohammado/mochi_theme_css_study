@@ -1,0 +1,23 @@
+html.dark {
+  --mochi--inverted-button--background: var(--mochi--button--background);
+    --mochi--inverted-button--border-color: var(--mochi--button--border-color);
+    --mochi--inverted-button--box-shdow: var(--mochi--button--box-shadow);
+    --mochi--inverted-button--color: var(--mochi--button--color);
+    --mochi--inverted-button--count-background: var(--mochi--side-bar-count--background);
+    --mochi--inverted-button--icon-color: var(--mochi--button--icon);
+    --mochi--inverted-button-active--background: var(--mochi--button-active--background);
+    --mochi--inverted-button-hover--background: var(--mochi--button-hover--background);
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not(.light) {
+      --mochi--inverted-button--background: var(--mochi--button--background);
+      --mochi--inverted-button--border-color: var(--mochi--button--border-color);
+      --mochi--inverted-button--box-shdow: var(--mochi--button--box-shadow);
+      --mochi--inverted-button--color: var(--mochi--button--color);
+      --mochi--inverted-button--count-background: var(--mochi--side-bar-count--background);
+      --mochi--inverted-button--icon-color: var(--mochi--button--icon);
+      --mochi--inverted-button-active--background: var(--mochi--button-active--background);
+      --mochi--inverted-button-hover--background: var(--mochi--button-hover--background);
+  }
+}
